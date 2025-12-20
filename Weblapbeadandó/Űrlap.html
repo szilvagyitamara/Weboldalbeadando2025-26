@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animáció.css">
+    <link rel="stylesheet" href="űrlap.css">
+    <title>Weboldalbeadandó</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Weboldalt készítette: Szilvágyi Tamara</div>
+            <ul class="nav-links">
+                <li><a href="főoldal.html">Főoldal</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Információk ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="animáció.html">Animáció</a></li>
+                        <li><a href="Űrlap.html">Űrlap</a></li>
+                        <li><a href="Táblázat.html">Táblázat</a></li>
+                        <li><a href="Galéria.html">Galéria</a></li>
+                        <li><a href="média.html">Média</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="Impresszum.html">Impresszum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>
+                WebShop
+            </h2>
+            <form action="">
+                <p><span id="kotelezo">A piros csillaggal jelölt mezőket kötelező ki tölteni! (*)</span></p>
+                <fieldset>
+                    <legend>Megrendelő adatai</legend>
+                    <p>
+                        <label for="nev">Név: <input type="text" name="nev" id="nev" placeholder="Név megadása..."
+                                required></label><span>*</span>
+                        <small>Vezetéknév Keresztnév</small>
+                    </p>
+                    <p>
+                        <label for="telefon">Telefon: <input type="tel" name="telefon" id="telefon"
+                                placeholder="Telefonszám megadása..." size="17" required></label><span>*</span>
+                    </p>
+                    <p>
+                        <label for="cim">Szállítási cím: <input type="text" name="cim" id="cim"
+                                placeholder="Ide írd a szállítási címed..." required></label><span>*</span>
+                    </p>
+                    <p>
+                        <label for="email">E-mail cím: <input type="email" name="email" id="email"
+                                placeholder="Ide írd a e-mail címed..." required></label><span>*</span>
+                    </p>
+                    <p>
+                        <label for="bankkartya">Bankkártya adatok: <input type="bankkartya" name="bankartya"
+                                id="bankkatya" placeholder="Ide írd a kártya adataid.." required><input type="cvc"
+                                name="cvc" id="cvc" placeholder="CVC szám.." required><input type="ervenyes"
+                                name="ervenyes" id="ervenyes" placeholder="Ide írd az érvényeségét.."
+                                required></label><span>*</span>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Plüss figurák eredeti [LIMITED]</legend>
+                    <a href="https://www.joom.com/hu/products/68f60369827bcc01fd306233?openPayload=%7B%22position%22%3A5%7D&variant_id=68f60369827bcce8fd30623a"
+                        target="_blank"><img src="skzoo.jpg" alt="Skzoo" title="Skzoo" width="300"></a>
+                    <div class="container">
+                        <p>Válaszd ki a megvásárolni kívánt plüss figurát! <span>*</span></p>
+                        <p>
+                            <label for=""><input type="radio" name="Wolf Chan" value="nagy">Wolf Chan (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="BbokAri" value="nagy">BbokAri (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="Jiniret" value="nagy">Jiniret (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="Leebit" value="nagy">Leebit (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="HAN QUOKKA" value="nagy">HAN QUOKKA (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="FoxI.Ny" value="nagy">FoxI.Ny (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="PuppyM" value="nagy">PuppyM (20*35) 18 520
+                                Ft</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="DWAEKKI" value="nagy">DWAEKKI (20*35) 18 520
+                                Ft</label>
+                        </p>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Eredeti albumok [LIMITED]</legend>
+                    <a href="https://www.joom.com/hu/products/68f752c04806de01fd329e5d?variant_id=68f752c04806de25fd329e5f" target="_blank"><img src="Doitalb.jpg" alt="SKDoIt" title="Stray Kids New Album" width="300"></a>
+                    <div class="container">
+                        <p>Válaszd ki a megvásárolni kívánt albumot!<span>*</span></p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">Mixtape</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">I Am Not</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">I Am WHO</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">I Am You</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">Clé 1: Miroh</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">Clé 2:Yellow Wood</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">Clé:Levanter</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">GO生 (GO LIVE)</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">IN生 (IN LIFE)</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">NOEASY</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">ODDINARY</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">MAXIDENT</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">★★★★★ (5-STAR) </label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">樂-STAR (Rock-STAR)</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">GIANT</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">Hop</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">ATE</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">HOLLOW</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">KARMA</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="Album" value="Album">DO IT</label>
+                        </p>
+                </fieldset>
+                <p>
+                    <label for="">Egyéb kívánság <br> <textarea name="egyeb" id="egyeb"></textarea></label>
+                </p>
+                <h2>A szállítási idő változó lehet, mivel a termék közvetlenül Koreából érkezik. Általában 12–15 nap
+                    alatt megérkezik, de előfordulhat, hogy akár 22 napot is igénybe vesz. Kérjük, ezt vedd figyelembe a
+                    rendelés leadásakor.
+                </h2>
+                <button type="reset">Alap helyzet</button>
+                <button type="submit">Elküldés</button>
+        </article>
+    </section>
+    <footer>&#169;copyright2025| Szilvágyi Tamara</footer>
+</body>
+
+</html>
